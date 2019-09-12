@@ -1,0 +1,125 @@
+body{
+    color:white;
+    font-family: cursive;
+    background:  linear-gradient( to right,#202020, #354253);
+    width: auto;
+    margin: 0 0 0 0;
+    
+}
+h1{
+    color:#faf9f9;
+    font-size: 1.8em;
+    text-align:center;
+    transition: 1s;
+}
+
+header{
+    height: 300px;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+nav ul a {
+    text-decoration:none;
+}
+nav ul a:link{
+    color:white;
+}
+nav li{
+    transition: transform 1s, background 1s, color 1s;
+    transform: rotate(360deg);
+    background: #646464;
+    width:120px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color:white;
+    
+}
+
+#rouge:hover {
+    background: #3b0000;
+    color:#ff0000;
+    transition:1s;
+}
+#orange:hover {
+    background: #412200;
+    color: #ff8800;
+    transition:1s;
+}
+#jaune:hover {
+    background: #3e3f00;
+    color: #fbff00;
+    transition:all 1s;
+}
+#vert:hover {
+    background: #003510;
+    color: #00ff4c;
+    transition:1s ;
+}
+
+
+#home{
+    height:200px;
+    text-align: center;
+}
+#home:hover h1{
+    color: #ff0000
+}
+#about{
+    height:600px;
+    position: relative;
+}
+.margin{
+    margin-left:80px;
+}
+#about li{
+    list-style-type: unset
+}
+#about:hover h1{
+    color:#ff8800
+}
+#about aside{
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    margin-right:10px;
+    position: absolute;
+    top:100px;
+    right: 0px;
+    border: solid #ff880094;
+    transition: right 1s;
+    border-radius:15px;
+    padding: 0 15px 0 15px;
+}
+
+#about:hover aside{
+    transition: right 1s;
+    right: calc(50% - 205px);
+}
+#about aside p {
+    position: absolute;
+    top: 50px;
+}
+#about aside h2{
+    position: absolute;
+}
+   
+#about aside p{
+    width: 350px;
+}
+#work:hover h1{
+    color:#fbff00
+}
+#contact:hover h1{
+    color: #00ff4c
+}
+
+
