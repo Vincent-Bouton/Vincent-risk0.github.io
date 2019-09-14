@@ -6,7 +6,7 @@ body{
     margin: 0 0 0 0;
     
 }
-h1{
+h2{
     color:#faf9f9;
     font-size: 1.8em;
     text-align:center;
@@ -70,7 +70,7 @@ nav li{
     height:200px;
     text-align: center;
 }
-#home:hover h1{
+#home:hover h2{
     color: #ff0000
 }
 #about{
@@ -83,7 +83,7 @@ nav li{
 #about li{
     list-style-type: unset
 }
-#about:hover h1{
+#about:hover h2{
     color:#ff8800
 }
 #about aside{
@@ -115,10 +115,10 @@ nav li{
 #about aside p{
     width: 350px;
 }
-#work:hover h1{
+#work:hover h2{
     color:#fbff00
 }
-#contact:hover h1{
+#contact:hover h2{
     color: #00ff4c
 }
 
