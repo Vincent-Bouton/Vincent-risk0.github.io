@@ -6,7 +6,7 @@ body{
     margin: 0 0 0 0;
     
 }
-h2, h1{
+h2{
     color:#faf9f9;
     font-size: 1.8em;
     text-align:center;
@@ -70,7 +70,7 @@ nav li{
     height:200px;
     text-align: center;
 }
-#home:hover h1{
+#home:hover h2{
     color: #ff0000
 }
 #about{
