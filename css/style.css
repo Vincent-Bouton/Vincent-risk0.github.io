@@ -6,6 +6,7 @@ body{
     margin: 0 0 0 0;
     
 }
+
 h2{
     color:#faf9f9;
     font-size: 1.8em;
@@ -28,6 +29,7 @@ nav ul{
 }
 nav ul a {
     text-decoration:none;
+    padding:10px 30px;
 }
 nav ul a:link{
     color:white;
@@ -36,7 +38,6 @@ nav li{
     transition: transform 1s, background 1s, color 1s;
     transform: rotate(360deg);
     background: #646464;
-    width:120px;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
