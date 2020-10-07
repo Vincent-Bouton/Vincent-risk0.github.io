@@ -7,9 +7,6 @@
 * [Overview](#overview)
     * [Built With](#built-with)
     * [Built by](#built-by)
-* [Features](#features)
-* [Contact](#contact)
-
 
 ## Overview
 
